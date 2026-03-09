@@ -9,7 +9,7 @@ const express = require('express');
 const { decryptString, generatePlatformId } = require('./crypto');
 
 const app = express();
-const PORT = process.env.PORT || 3010;
+const PORT = process.env.PORT || 3000;
 
 // ============================================
 // CONFIGURACIÓN - Los alumnos pueden modificar esto
